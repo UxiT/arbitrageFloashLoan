@@ -3,5 +3,9 @@
   "devDependencies": {
     "@nomicfoundation/hardhat-toolbox": "^5.0.0",
     "hardhat": "^2.22.3"
+  },
+  "dependencies": {
+    "@aave/core-v3": "^1.19.3",
+    "dotenv": "^16.4.5"
   }
 }
