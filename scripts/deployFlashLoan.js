@@ -10,4 +10,9 @@ async function main() {
 main().catch((error) => {
     console.log(error);
     process.exitCode = 1;
+    console.log("Вот такие вот пироги");
 })
+
+const f = (x) => {
+    return x*x;
+}
